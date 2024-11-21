@@ -66,7 +66,9 @@ public class BankBalance implements ActionListener {
         fifthPanel = new JPanel();
         fifthPanel.setLayout(new FlowLayout());
         submitButton = new JButton("Submit");
+        submitButton.addActionListener(this);
         resetButton = new JButton("Reset");
+        resetButton.addActionListener(this);
         fifthPanel.add(submitButton);
         fifthPanel.add(resetButton);
 
