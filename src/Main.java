@@ -3,5 +3,4 @@ public class Main {
 
         BankBalance newAccount = new BankBalance();
     }
-
 }
